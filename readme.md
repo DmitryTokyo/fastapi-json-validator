@@ -1,6 +1,7 @@
 # Restaurant schedule test application
 
 [![Build Status](https://app.travis-ci.com/DmitryTokyo/fastapi-json-validator.svg?branch=main)](https://app.travis-ci.com/DmitryTokyo/fastapi-json-validator)
+[![codecov](https://codecov.io/github/DmitryTokyo/fastapi-json-validator/branch/main/graph/badge.svg?token=U62XNU5F4M)](https://codecov.io/github/DmitryTokyo/fastapi-json-validator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## About
