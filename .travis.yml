@@ -3,7 +3,7 @@ language: python
 python:
   - "3.10.4"
 install:
-  - pip install -r requirements/lint.txt
+  - pip install -r requirements/lint.txt --use-deprecated=legacy-resolver
 script:
   - make style
   - make test
