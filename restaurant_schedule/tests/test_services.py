@@ -4,8 +4,9 @@ from restaurant_schedule.api.services.schedule_representation import (
     get_readable_restaurant_schedule,
     get_sortable_raw_schedule_data,
 )
-from restaurant_schedule.api.services.validator import validate_restaurant_schedule_raw_data, \
-    handle_restaurant_error_state
+from restaurant_schedule.api.services.validator import (
+    validate_restaurant_schedule_raw_data, handle_restaurant_error_state,
+)
 
 
 @pytest.mark.asyncio
