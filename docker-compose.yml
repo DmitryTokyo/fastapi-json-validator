@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  restaurant_schedule:
+    container_name: restaurant_schedule
+    build: .
+    command: uvicorn restaurant_schedule.main:app --host 0.0.0.0 --port 5000
+    restart: always
+    ports:
+      - "5000:5000"
