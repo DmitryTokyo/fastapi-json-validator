@@ -1,7 +1,6 @@
 [run]
 omit =
     restaurant_schedule/tests/*
-    *__init__.py*
     restaurant_schedule/config/*
     *schemas.py*
     *enums.py*
